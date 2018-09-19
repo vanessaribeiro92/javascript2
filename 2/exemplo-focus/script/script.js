@@ -109,16 +109,16 @@ button.addEventListener("click", function (event) {
         return false;
 
     } else if (inputArea.selectedIndex === 0 ) {
-        document.querySelector("body").style.backgroundColor = 'blue'; //6
+        document.querySelector("body").style.backgroundColor = '#381DFF'; //6 - blue
         
     } else if (inputArea.selectedIndex === 1 ) {
-        document.querySelector("body").style.backgroundColor = 'green'; //6
+        document.querySelector("body").style.backgroundColor = '#005900'; //6 - verde
 
     } else if (inputArea.selectedIndex === 2 ) {
-        document.querySelector("body").style.backgroundColor = 'pink'; //6
+        document.querySelector("body").style.backgroundColor = '#FF8AC7'; //6 - rosa
 
     } else if (inputArea.selectedIndex === 3 ) {
-        document.querySelector("body").style.backgroundColor = 'orange'; //6
+        document.querySelector("body").style.backgroundColor = '#E8580E'; //6 - laranja
     }
        
     if (radioItem.value === "Junior"){
